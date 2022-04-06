@@ -1,0 +1,43 @@
+# IDs
+MY_ID =  40186128
+PARTNER_ID = 40160733
+
+# my data
+p = 203207
+q = 249677
+N = 50736114139
+phi_N = 50735661256
+e = 25957759575
+d = 30070334671
+
+# my partner data
+PARTNER_N = 3617471941
+PARTNER_e = 3252570191
+
+# encryption
+MY_MESSAGE = "the shell is 12% of an eggs weight"
+MY_MESSAGE_chunks = ['the', ' sh', 'ell', ' is', ' 12', '% o', 'f a', 'n e', 'ggs', ' we', 'igh', 't']
+MY_CIPHERTEXT = [2181562058, 1866532723, 1657941395, 2620413409, 1244758793, 1555584016, 1920168020, 786738719, 464884079, 289748345, 1028823535, 104004673]
+
+# decryption
+PARTNER_CIPHERTEXT = [37010950380, 30866713156, 35040133006, 27494088892, 16269851198, 39367176765, 14606575253, 31588501933]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['you', 'r s', 'mil', 'e i', 's i', 'mpo', 'rta', 'nt']
+PARTNER_MESSAGE_AFTER_DECRYPT = "your smile is important"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Sisinder Reddy Valmiki"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Sis', 'ind', 'er ', 'Red', 'dy ', 'Val', 'mik', 'i']
+MY_SIGNATURE = [6137150328, 46244618101, 384492123, 48101715997, 49477485949, 1629959187, 20936313352, 27551179612]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "marjan iravani"
+PARTNER_SIGNATURE = [1257998643, 2928876218, 1434314172, 126577884, 36276628]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here 
+'''
